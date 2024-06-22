@@ -122,7 +122,7 @@ export const StaticheaderBackgroundButton = styled.span((props) => ({
 }));
 
 export const StatictourButtonButton = styled.span((props) => ({
-  backgroundColor: props.theme.colors.quaternary,
+  backgroundColor: props.theme.colors.tertiary,
   color: props.theme.colors.primary,
   textTransform: "uppercase",
   fontSize: "0.9rem",
@@ -135,7 +135,7 @@ export const StatictourButtonButton = styled.span((props) => ({
 }));
 
 export const StaticcontentButtonButton = styled.span((props) => ({
-  backgroundColor: props.theme.colors.tertiary,
+  backgroundColor: props.theme.colors.quaternary,
   color: props.theme.colors.primary,
   textTransform: "uppercase",
   fontSize: "0.9rem",
@@ -1127,6 +1127,10 @@ export const NavigationButton = styled(Button)((props) => ({
 }));
 
 export const NavigationContentButton = styled(NavigationButton)((props) => ({
+  backgroundColor: props.theme.colors.quaternary,
+}));
+
+export const NavigationTourButton = styled(NavigationButton)((props) => ({
   backgroundColor: props.theme.colors.tertiary,
 }));
 

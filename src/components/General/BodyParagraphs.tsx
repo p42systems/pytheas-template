@@ -32,9 +32,9 @@ function BodyParagraphs(props: {
               return null;
             } else if (content === "takeTour") {
               return (
-                <StaticcontentButtonButton key={index}>
+                <StatictourButtonButton key={index}>
                   Take Tour
-                </StaticcontentButtonButton>
+                </StatictourButtonButton>
               );
             } else if (content === "completed") {
               return (
@@ -44,9 +44,9 @@ function BodyParagraphs(props: {
               );
             } else if (content === "content") {
               return (
-                <StatictourButtonButton key={index}>
+                <StaticcontentButtonButton key={index}>
                   Content
-                </StatictourButtonButton>
+                </StaticcontentButtonButton>
               );
             } else if (
               links &&
